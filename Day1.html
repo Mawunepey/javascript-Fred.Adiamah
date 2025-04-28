@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1 java basics </title>
+</head>
+<body>
+    <script>
+// Declare variables
+let price = 100;
+const taxRate = 0.1;
+let quantity = 3;
+
+// Calculate initial total cost
+let totalCost = price * quantity * (1 + taxRate);
+console.log(`Initial total cost: $${totalCost}`); // Initial total cost: $330
+
+// Reassign quantity
+quantity = 5;
+
+// Recalculate total cost
+totalCost = price * quantity * (1 + taxRate);
+console.log(`Updated total cost: $${totalCost}`); // Updated total cost: $550
+
+
+
+
+// Data manupulation 
+
+// Declare variables
+let score = 95;
+let message = "Great job!";
+let isPassing = true;
+let grades = [90, 85, 88];
+let student = { name: "Emma", age: 20 };
+
+// Print types using typeof
+console.log(`Type of score: ${typeof score}`); // Type of score: number
+console.log(`Type of message: ${typeof message}`); // Type of message: string
+console.log(`Type of isPassing: ${typeof isPassing}`); // Type of isPassing: boolean
+console.log(`Type of grades: ${typeof grades}`); // Type of grades: object
+console.log(`Type of student: ${typeof student}`); // Type of student: object
+
+// Access and print second grade and student's name
+console.log(`Second grade: ${grades[1]}`); // Second grade: 85
+console.log(`Student's name: ${student.name}`); // Student's name: Emma
+
+
+
+
+// Declare variables
+// Declare variables
+let a = 10;
+let b = 3;
+
+// Arithmetic operations
+console.log(`a + b: ${a + b}`); // a + b: 13
+console.log(`a % b: ${a % b}`); // a % b: 1
+console.log(`a ** 2: ${a ** 2}`); // a ** 2: 100
+
+// Comparison operations
+console.log(`a > b: ${a > b}`); // a > b: true
+console.log(`a === b: ${a === b}`); // a === b: false
+
+// Logical operation
+console.log(`(a > 5) && (b < 5):${(a > 5) && (b < 5)}`); // (a > 5) && (b < 5): true
+
+// Assignment operation
+a += 5;
+console.log(`Updated a: ${a}`); // Updated a: 15
+
+// Type coercion
+console.log(`5 == "5": ${5 == "5"}`); // 5 == "5": true
+console.log(`5 === "5": ${5 === "5"}`); // 5 === "5": false
+
+    </script>
+</body>
+</html>
